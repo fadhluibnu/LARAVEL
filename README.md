@@ -6,6 +6,6 @@
 
 ### Alur Belajar
 
-- **[Struktur Folder]()**
-- **[Routing]()**
+- **[Struktur Folder](https://github.com/fadhluibnu/LARAVEL/tree/main/Struktur%20Folder)**
+- **[Routing](https://github.com/fadhluibnu/LARAVEL/tree/main/Routing)**
 - **[]()**
