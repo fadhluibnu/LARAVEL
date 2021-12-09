@@ -1,5 +1,5 @@
 <h2>⁋ Routing</h2>
-<p>Untuk melakukan routung pada web kita bisa masuk ke folder <code>routes/web.php</code>.</p>
+<p>Untuk melakukan routing pada web, kita bisa masuk ke folder <code>routes/web.php</code>.</p>
 <img src="https://github.com/fadhluibnu/LARAVEL/blob/main/Asset%20GitHub/web.php.JPG"/>
 <p>Di disini kita menemukan sebuah code bertuliskan</p>
 <code>
@@ -20,3 +20,25 @@ Route::get('/about', function () {
 <img src="https://github.com/fadhluibnu/LARAVEL/blob/main/Asset%20GitHub/route%20slash%20about.JPG"/>
 <p>tetapi kita memasukkan url <code>/</code> pada browser maka yang terjadi adalah <code>404 | Not Found</code> seperti gambar di bawah</code></p>
 <img src="https://github.com/fadhluibnu/LARAVEL/blob/main/Asset%20GitHub/slash%20not%20found.JPG"/>
+
+itu terjadi karena tidak ada route get yang menangani `/`. Tapi jika kita Menuliskan Route Url nya `/About` maka halaman Tidak akan memunculkan `404 | Not Found`.
+
+Oke Sekarang kita kembalikan lagi routenya mendadi `/`.
+
+```
+Route::get('/', function () {
+    return view('welcome');
+})
+```
+
+Sekarang dibagian return. Sebenarnya di bagian return kita bisa menuliskan apapun seperti :
+
+```
+Route::get('/', function () {
+    return "Hello Laravel";
+});
+```
+
+Maka jika kita buka di browser dengan mengetikkan url `/` akan muncul Hello Laravel, seperti gambar berikut
+
+![Gambar](https://github.com/fadhluibnu/LARAVEL/blob/main/Asset%20GitHub/Hello%20Laravel.JPG)
