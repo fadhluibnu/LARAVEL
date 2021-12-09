@@ -42,3 +42,19 @@ Route::get('/', function () {
 Maka jika kita buka di browser dengan mengetikkan url `/` akan muncul Hello Laravel, seperti gambar berikut
 
 ![Gambar](https://github.com/fadhluibnu/LARAVEL/blob/main/Asset%20GitHub/Hello%20Laravel.JPG)
+
+Oke sekarang kita kembalikan lagi menjadi
+
+```
+Route::get('/', function () {
+    return view('welcome');
+})
+```
+
+Nah cara baca returnya gimana sih? Caranya yaitu saat kita mengetikkan url `/` maka function akan dijalankan dan mengembalikan `view('welcome')`.
+
+Tapi kok bisa tampil do browser? nah kalau kalian sudah paham konsep MVC `welcome` yang ada di dalam kurung itu sebenernya adalah sebuah file yang tersimpan di folder `resources/view` dengan nama `welcome.blade.php`
+
+![welcome.blade.php](https://github.com/fadhluibnu/LARAVEL/blob/main/Asset%20GitHub/welcome.blade.php.JPG)
+
+itulah yang membuat aplikasi kita tampil di browser. Yang terjadi sebenarnya adalah Laravelnya mencari sebuah file yang bernama `welcome`
