@@ -12,4 +12,4 @@ Untuk lebih lengkapnya [klik disini](https://www.youtube.com/playlist?list=PLFIM
 - **[Struktur Folder](https://github.com/fadhluibnu/LARAVEL/tree/main/Struktur%20Folder)**
 - **[Routing](https://github.com/fadhluibnu/LARAVEL/tree/main/Routing)**
 - **[Mengirim Data Ke View](https://github.com/fadhluibnu/LARAVEL/tree/main/Mengirim%20Data%20Ke%20View)**
-- **[Blade Templating Enggine]()**
+- **[Blade Templating Enggine](https://github.com/fadhluibnu/LARAVEL/tree/main/Blade%20Tempalting%20Engine)**
