@@ -110,3 +110,115 @@ Sekarang kita coba buka halaman dengan mengetikan:
   ```
 
   ![Gambar route blog](https://github.com/fadhluibnu/LARAVEL/blob/main/Asset%20GitHub/halaman%20blog.JPG)
+
+Nah Sekarang kita coba untuk menampilkan sebuha view, caranya yaitu kita ubah return nya menjadi :
+
+```
+Route::get('/', function () {
+    return view('home');
+});
+```
+
+```
+Route::get('/about', function () {
+    return view('about');
+});
+```
+
+```
+Route::get('/blog', function () {
+    return view('posts');
+});
+```
+
+Selanjutnya kita buat sebuah File di `resources/views`
+
+![Gambar views](https://github.com/fadhluibnu/LARAVEL/blob/main/Asset%20GitHub/views.JPG)
+
+Setelah itu masukan kode html pada setiap file nya:
+
+- **`home.blade.php`**
+
+```
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>WPU Blog | Home</title>
+</head>
+
+<body>
+    <h1>Halaman Home</h1>
+</body>
+
+</html>
+```
+
+- **`about.blade.php`**
+
+```
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>WPU Blog | About</title>
+</head>
+
+<body>
+    <h1>Halaman About</h1>
+</body>
+
+</html>
+```
+
+- **`posts.blade.php`**
+
+```
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>WPU Blog | Posts</title>
+</head>
+
+<body>
+    <h1>Halaman Posts</h1>
+</body>
+
+</html>
+```
+
+**Menambahkan file CSS**
+
+Buat filenya di `public` dengan nama `style.css` kemudian tambahakan code:
+
+```
+body {
+    background-color: salmon;
+}
+```
+
+Bagaimana cara menghubungkanya ke file `home.blade.php`, `about.blade.php`, `posts.blade.php`. Kita tinggal tambahakan code
+
+```
+<link rel="stylesheet" href="style.css">
+```
+
+di setiap file views nya. Nah, kok bisa terhubung? itu karena tag `link` sudah relative ke folder publicnya. tekhnik ini juga berlaku pada penghubungan file JavaScript dengan menggunakan tag `script` di akhir body.
+
+Dan jika ingin menambahkan gambar kita bisa buat di folder `public` dengan nama `image`/`img`. Cara mengubungkanya yaitu
+
+Contoh:
+
+```
+<img src="img/nama_gambar_kalian.png" alt="">
+```
