@@ -58,3 +58,15 @@ Tapi kok bisa tampil do browser? nah kalau kalian sudah paham konsep MVC `welcom
 ![welcome.blade.php](https://github.com/fadhluibnu/LARAVEL/blob/main/Asset%20GitHub/welcome.blade.php.JPG)
 
 itulah yang membuat aplikasi kita tampil di browser. Yang terjadi sebenarnya adalah Laravelnya mencari sebuah file yang bernama `welcome`
+
+### Mengubah tampilan
+
+cara mengubah tampilan yaitu dengan cara:
+
+- **Ganti Return**
+  Ganti menjadi, Misal `return 'Halaman Utama'`
+  ![Halaman Utama]()
+
+Nah kalo mau buat banyak halaman tinggal copas aja seperti gambar di bawah dan ganti return sama Routenya
+
+![gambar copas]()
