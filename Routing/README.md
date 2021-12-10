@@ -64,9 +64,49 @@ itulah yang membuat aplikasi kita tampil di browser. Yang terjadi sebenarnya ada
 cara mengubah tampilan yaitu dengan cara:
 
 - **Ganti Return**
-  Ganti menjadi, Misal `return 'Halaman Utama'`
-  ![Halaman Utama]()
+
+  Ganti menjadi, Misal `return 'Halaman Utama';`
+
+  ![Halaman Utama](https://github.com/fadhluibnu/LARAVEL/blob/main/Asset%20GitHub/return%20halaman%20utama.JPG)
 
 Nah kalo mau buat banyak halaman tinggal copas aja seperti gambar di bawah dan ganti return sama Routenya
 
-![gambar copas]()
+![gambar copas](https://github.com/fadhluibnu/LARAVEL/blob/main/Asset%20GitHub/gambar%20copas.JPG)
+
+Sekarang kita coba buka halaman dengan mengetikan:
+
+- **`/`**
+
+  Maka akan mengeksekusi muncul route dengan url `/` yaitu
+
+  ```
+  Route::get('/', function () {
+    return 'Halaman Home';
+  });
+  ```
+
+  ![Gambar route /]()
+
+- **`/about`**
+
+  Maka akan mengeksekusi muncul route dengan url `/about` yaitu
+
+  ```
+  Route::get('/about', function () {
+    return 'Halaman About';
+  });
+  ```
+
+  ![Gambar route about]()
+
+- **`/blog`**
+
+  Maka akan mengeksekusi muncul route dengan url `/blog` yaitu
+
+  ```
+  Route::get('/blog', function () {
+    return 'Halaman Blog';
+  });
+  ```
+
+  ![Gambar route blog]()
