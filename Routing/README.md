@@ -85,7 +85,7 @@ Sekarang kita coba buka halaman dengan mengetikan:
   });
   ```
 
-  ![Gambar route /]()
+  ![Gambar route /](https://github.com/fadhluibnu/LARAVEL/blob/main/Asset%20GitHub/halaman%20home.JPG)
 
 - **`/about`**
 
@@ -97,7 +97,7 @@ Sekarang kita coba buka halaman dengan mengetikan:
   });
   ```
 
-  ![Gambar route about]()
+  ![Gambar route about](https://github.com/fadhluibnu/LARAVEL/blob/main/Asset%20GitHub/Halaman%20About.JPG)
 
 - **`/blog`**
 
@@ -109,4 +109,4 @@ Sekarang kita coba buka halaman dengan mengetikan:
   });
   ```
 
-  ![Gambar route blog]()
+  ![Gambar route blog](https://github.com/fadhluibnu/LARAVEL/blob/main/Asset%20GitHub/halaman%20blog.JPG)
