@@ -17,3 +17,4 @@ Untuk lebih lengkapnya [klik disini](https://www.youtube.com/playlist?list=PLFIM
 - **[Membuat Model](https://github.com/fadhluibnu/LARAVEL/tree/main/Membuat%20Model)**
 - **[Collection](https://github.com/fadhluibnu/LARAVEL/tree/main/Collection)**
 - **[Membuat Controller](https://github.com/fadhluibnu/LARAVEL/tree/main/Membuat%20Controller)**
+- **[Enviroment Variables](https://github.com/fadhluibnu/LARAVEL/tree/main/Enviroment%20Variables)**
