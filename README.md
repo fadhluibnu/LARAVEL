@@ -15,3 +15,5 @@ Untuk lebih lengkapnya [klik disini](https://www.youtube.com/playlist?list=PLFIM
 - **[Blade Templating Enggine](https://github.com/fadhluibnu/LARAVEL/tree/main/Blade%20Tempalting%20Engine)**
 - **[Simulasi Blogs Posts](https://github.com/fadhluibnu/LARAVEL/tree/main/Simulasi%20Blogs%20Posts)**
 - **[Membuat Model](https://github.com/fadhluibnu/LARAVEL/tree/main/Membuat%20Model)**
+- **[Collection](https://github.com/fadhluibnu/LARAVEL/tree/main/Collection)**
+- **[Membuat Controller](https://github.com/fadhluibnu/LARAVEL/tree/main/Membuat%20Controller)**
