@@ -13,3 +13,4 @@ Untuk lebih lengkapnya [klik disini](https://www.youtube.com/playlist?list=PLFIM
 - **[Routing](https://github.com/fadhluibnu/LARAVEL/tree/main/Routing)**
 - **[Mengirim Data Ke View](https://github.com/fadhluibnu/LARAVEL/tree/main/Mengirim%20Data%20Ke%20View)**
 - **[Blade Templating Enggine](https://github.com/fadhluibnu/LARAVEL/tree/main/Blade%20Tempalting%20Engine)**
+- **[Simulasi Blogs Posts](https://github.com/fadhluibnu/LARAVEL/tree/main/Simulasi%20Blogs%20Posts)**
