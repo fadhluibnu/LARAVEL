@@ -18,3 +18,5 @@ Untuk lebih lengkapnya [klik disini](https://www.youtube.com/playlist?list=PLFIM
 - **[Collection](https://github.com/fadhluibnu/LARAVEL/tree/main/Collection)**
 - **[Membuat Controller](https://github.com/fadhluibnu/LARAVEL/tree/main/Membuat%20Controller)**
 - **[Enviroment Variables](https://github.com/fadhluibnu/LARAVEL/tree/main/Enviroment%20Variables)**
+- **[Migration](https://github.com/fadhluibnu/LARAVEL/tree/main/Migration)**
+- **[Eloquent](https://github.com/fadhluibnu/LARAVEL/tree/main/Eloquent)**
