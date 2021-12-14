@@ -23,3 +23,5 @@ Untuk lebih lengkapnya [klik disini](https://www.youtube.com/playlist?list=PLFIM
 - **[Membuat Model Post](https://github.com/fadhluibnu/LARAVEL/tree/main/Membuat%20Model%20Post)**
 - **[Mess Assignment](https://github.com/fadhluibnu/LARAVEL/tree/main/Mess%20Assignment)**
 - **[Route Model Binding](https://github.com/fadhluibnu/LARAVEL/tree/main/Route%20Model%20Binding)**
+- **[Eloquent Relationship](https://github.com/fadhluibnu/LARAVEL/tree/main/Eloquent%20Relationship)**
+- **[Implementasi Eloquent Realtionship](https://github.com/fadhluibnu/LARAVEL/tree/main/Implementasi%20Eloquent%20Realtionship)**
