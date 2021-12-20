@@ -25,3 +25,6 @@ Untuk lebih lengkapnya [klik disini](https://www.youtube.com/playlist?list=PLFIM
 - **[Route Model Binding](https://github.com/fadhluibnu/LARAVEL/tree/main/Route%20Model%20Binding)**
 - **[Eloquent Relationship](https://github.com/fadhluibnu/LARAVEL/tree/main/Eloquent%20Relationship)**
 - **[Implementasi Eloquent Realtionship](https://github.com/fadhluibnu/LARAVEL/tree/main/Implementasi%20Eloquent%20Realtionship)**
+- **[Database Seeder](https://github.com/fadhluibnu/LARAVEL/tree/main/Database%20Seeder)**
+- **[Factory](https://github.com/fadhluibnu/LARAVEL/tree/main/Factory)**
+- **[N + 1 Problem](https://github.com/fadhluibnu/LARAVEL/tree/main/N%20+%201%20Problem)**
