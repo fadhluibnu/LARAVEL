@@ -28,3 +28,4 @@ Untuk lebih lengkapnya [klik disini](https://www.youtube.com/playlist?list=PLFIM
 - **[Database Seeder](https://github.com/fadhluibnu/LARAVEL/tree/main/Database%20Seeder)**
 - **[Factory](https://github.com/fadhluibnu/LARAVEL/tree/main/Factory)**
 - **[N + 1 Problem](https://github.com/fadhluibnu/LARAVEL/tree/main/N%20+%201%20Problem)**
+- **[Searching & Pagination](https://github.com/fadhluibnu/LARAVEL/tree/main/Searching%20&%20Pagination)**
