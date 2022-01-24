@@ -30,3 +30,6 @@ Untuk lebih lengkapnya [klik disini](https://www.youtube.com/playlist?list=PLFIM
 - **[N + 1 Problem](https://github.com/fadhluibnu/LARAVEL/tree/main/N%20+%201%20Problem)**
 - **[Searching & Pagination](https://github.com/fadhluibnu/LARAVEL/tree/main/Searching%20&%20Pagination)**
 - **[Form Registrasi](https://github.com/fadhluibnu/LARAVEL/tree/main/Form%20Registrasi)**
+- **[User Login n Midleware](https://github.com/fadhluibnu/LARAVEL/tree/main/User%20Login%20n%20Midleware)**
+- **[Dashboard UI](https://github.com/fadhluibnu/LARAVEL/tree/main/Dashboard%20UI)**
+- **[Dashboard UI (Resource Controller)](<https://github.com/fadhluibnu/LARAVEL/tree/main/Dashboard%20UI%20(Resource%20Controller)>)**
