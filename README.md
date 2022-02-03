@@ -33,3 +33,7 @@ Untuk lebih lengkapnya [klik disini](https://www.youtube.com/playlist?list=PLFIM
 - **[User Login n Midleware](https://github.com/fadhluibnu/LARAVEL/tree/main/User%20Login%20n%20Midleware)**
 - **[Dashboard UI](https://github.com/fadhluibnu/LARAVEL/tree/main/Dashboard%20UI)**
 - **[Dashboard UI (Resource Controller)](<https://github.com/fadhluibnu/LARAVEL/tree/main/Dashboard%20UI%20(Resource%20Controller)>)**
+- **[Create Post Form](https://github.com/fadhluibnu/LARAVEL/tree/main/Create%20Post%20Form)**
+- **[Validation dan Insert Post](https://github.com/fadhluibnu/LARAVEL/tree/main/Validation%20n%20Insert%20Post)**
+- **[Fitur Delete Post](https://github.com/fadhluibnu/LARAVEL/tree/main/Fitur%20Delete%20Post)**
+- **[Fitur Update](https://github.com/fadhluibnu/LARAVEL/tree/main/Fitur%20Update)**
