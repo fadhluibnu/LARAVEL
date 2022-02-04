@@ -10,13 +10,13 @@
 
     Ganti code dibawah :
 
-    ```
+    ```html
     <a href="" class="badge bg-danger"><span data-feather="x-circle"></span></a>
     ```
 
     menjadi :
 
-    ```
+    ```blade
     <form action="/dashboard/posts/{{ $post->slug }}" method="POST" class="d-inline">
         @method('delete')
         @csrf
@@ -29,7 +29,7 @@
 
   Buka `DashboardPostController.php` lalu tambahkan code berikut pada method `destroy` :
 
-  ```
+  ```php
   Post::destroy($post->id);
   return redirect('/dashboard/posts')->with('success', 'New post has been deleted!');
   ```
@@ -38,13 +38,13 @@
 
   Buka file `show.blade.php` lalu ganti code berikut :
 
-  ```
+  ```html
   <a href="" class="btn btn-danger"><span data-feather="x-circle"></span> Delete</a>
   ```
 
   menjadi :
 
-  ```
+  ```blade
   <form action="/dashboard/posts/{{ $post->slug }}" method="POST" class="d-inline">
     @method('delete')
     @csrf
