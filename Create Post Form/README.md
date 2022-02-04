@@ -4,7 +4,7 @@
 
   Tambahkan code berikut di atas table kita :
 
-  ```
+  ```html
   <a href="/dashboard/posts/create" class="btn btn-primary mb-3 mt-1">Create new post</a>
   ```
 
@@ -12,7 +12,7 @@
 
   Masuk ke `DashboardPostController` lalu copy kode berikut ke dalam method `create` :
 
-  ```
+  ```php
   return view('dashboard.posts.create', [
     'categories' => Category::all()
   ]);
@@ -22,7 +22,7 @@
 
   Buat sebuah view dengan nama `create.blade.php` di dalam folder `/dashboard/posts`. Setelah itu masukkan code berikut :
 
-  ```
+  ```blade
   @extends('dashboard.layouts.main')
   @section('container')
         <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
