@@ -6,25 +6,25 @@ mari kita mulai
 
   Masuk ke file `index.blade.php` pada folder `/dashboard/posts/` lalu ganti code berikut
 
-  ```
+  ```html
   <a href="" class="badge bg-warning"><span data-feather="edit"></span></a>
   ```
 
   menjadi :
 
-  ```
+  ```html
   <a href="/dashboard/posts/{{ $post->slug }}/edit" class="badge bg-warning"><span data-feather="edit"></span></a>
   ```
 
   lalu masuk ke file `show.blade.php` ganti code berikut :
 
-  ```
+  ```html
   <a href="" class="btn btn-warning"><span data-feather="edit"></span> Edit</a>
   ```
 
   menjadi :
 
-  ```
+  ```html
   <a href="/dashboard/posts/{{ $post->slug }}/edit" class="btn btn-warning"><span data-feather="edit"></span>Edit</a>
   ```
 
@@ -34,7 +34,7 @@ mari kita mulai
 
   Buat view dengan nama `edit.blade.php`, lalu pastekan code berikut
 
-  ```
+  ```blade
   @extends('dashboard.layouts.main')
 
   @section('container')
@@ -104,7 +104,7 @@ mari kita mulai
 
   Masuk ke `DashboardPostController.php` lalu cari method `edit` dan masukkan code berikut :
 
-  ```
+  ```php
   return view('dashboard.posts.edit', [
       'post' => $post,
       'categories' => Category::all()
@@ -115,7 +115,7 @@ mari kita mulai
 
   Masih di `DashboardPostController.php` dan kita sekrang fokus di method `update`. Tambhakan code dibawah :
 
-  ```
+  ```php
     $rules = [
         'title' => 'required|max:255',
         'category_id' => 'required',
@@ -145,7 +145,7 @@ mari kita mulai
 
     jadi solusinya adalah membuat sebuah pengkondisian :
 
-    ```
+    ```php
     if ($request->slug != $post->slug) {
         $rules['slug'] = 'required|unique:posts';
     }
