@@ -10,7 +10,7 @@ Resoruce Controller adalah Sebuah controller yang otomatis mengelola data CRUD. 
 
   Ketikkan perintah :
 
-  ```
+  ```php
   php artisan make:controller DashboardPostController --model=Post --resource
   ```
 
@@ -59,7 +59,7 @@ Resoruce Controller adalah Sebuah controller yang otomatis mengelola data CRUD. 
 
   Buka web.php lalu tambahkan :
 
-  ```
+  ```php
   Route::resource('/dashboard/posts', DashboardPostController::class)->middleware('auth');
   ```
 
@@ -69,7 +69,7 @@ Resoruce Controller adalah Sebuah controller yang otomatis mengelola data CRUD. 
 
   Masuk ke Dashbord Post Controller lalu tambahkan code berikut :
 
-  ```
+  ```php
   return view('dashboard.posts.index', [
           'posts' => Post::where('user_id', auth()->user()->id)->get()
       ]);
@@ -89,7 +89,7 @@ Resoruce Controller adalah Sebuah controller yang otomatis mengelola data CRUD. 
 
     Masukkan Code berikut :
 
-    ```
+    ```blade
     @extends('dashboard.layouts.main')
     @section('container')
         <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
@@ -136,7 +136,7 @@ Resoruce Controller adalah Sebuah controller yang otomatis mengelola data CRUD. 
 
   Masuk ke Model Post, lalu tambahkan code :
 
-  ```
+  ```php
   public function getRouteKeyName()
   {
       return 'slug';
@@ -147,7 +147,7 @@ Resoruce Controller adalah Sebuah controller yang otomatis mengelola data CRUD. 
 
   Buka dashboard post controller lalu pastekan code berikut pada method show :
 
-  ```
+  ```php
   return view('dashboard.posts.show', [
       'post' => $post
   ]);
@@ -157,7 +157,7 @@ Resoruce Controller adalah Sebuah controller yang otomatis mengelola data CRUD. 
 
   Buat file ini di dalam folder `/dashborad/posts` dengan nama `show.blade.php`. Lalu tambahkan code berikut :
 
-  ```
+  ```blade
   @extends('dashboard.layouts.main')
   @section('container')
       <div class="container">

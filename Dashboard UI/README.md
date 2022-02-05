@@ -16,13 +16,13 @@ kita bisa menggunakan template punya bootstrap [klik disini](https://getbootstra
 
   Dari :
 
-  ```
+  ```php
   Route::get('/dashboard', DashboardPostController::class)->middleware('auth');
   ```
 
   Menjadi :
 
-  ```
+  ```php
   Route::get('/dashboard', function () {
     return view('dashboard.index');
   })->middleware('auth');
@@ -36,7 +36,7 @@ kita bisa menggunakan template punya bootstrap [klik disini](https://getbootstra
 
     Masukkan code berikut :
 
-    ```
+    ```blade
     <!DOCTYPE html>
     <html lang="en">
     <head>
@@ -145,7 +145,7 @@ kita bisa menggunakan template punya bootstrap [klik disini](https://getbootstra
 
     Tambahakan code berikut :
 
-    ```
+    ```blade
     <!DOCTYPE html>
     <html lang="en">
     <head>
@@ -191,7 +191,7 @@ kita bisa menggunakan template punya bootstrap [klik disini](https://getbootstra
 
     Buat file ini di dalam folder `dashboard/layouts`, lalu tambahkan code berikut :
 
-    ```
+    ```blade
     <header
       class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0 shadow"
     >
@@ -230,7 +230,7 @@ kita bisa menggunakan template punya bootstrap [klik disini](https://getbootstra
 
     Buat File ini di dalam `dashboard/layouts`, lalu tambahkan code berikut :
 
-    ```
+    ```blade
     <nav
     id="sidebarMenu"
     class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse"
@@ -258,7 +258,7 @@ kita bisa menggunakan template punya bootstrap [klik disini](https://getbootstra
 
     Hapus dulu semua codenya, ganti menjadi :
 
-    ```
+    ```blade
     @extends('dashboard.layouts.main')
 
     @section('container')

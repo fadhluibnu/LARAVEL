@@ -5,7 +5,7 @@
 
   Copy dan letakkan pada function store :
 
-  ```
+  ```php
   $validateData = $request->validate([
     'title' => 'required|max:255',
     'slug' => 'required|unique:posts',
@@ -22,7 +22,7 @@
 
   - Validate
 
-    ```
+    ```php
     $validateData = $request->validate([
     'title' => 'required|max:255',
     'slug' => 'required|unique:posts',
