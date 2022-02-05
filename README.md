@@ -37,3 +37,4 @@ Untuk lebih lengkapnya [klik disini](https://www.youtube.com/playlist?list=PLFIM
 - **[Validation dan Insert Post](https://github.com/fadhluibnu/LARAVEL/tree/main/Validation%20n%20Insert%20Post)**
 - **[Fitur Delete Post](https://github.com/fadhluibnu/LARAVEL/tree/main/Fitur%20Delete%20Post)**
 - **[Fitur Update](https://github.com/fadhluibnu/LARAVEL/tree/main/Fitur%20Update)**
+- **[Upload Image](https://github.com/fadhluibnu/LARAVEL/tree/main/Upload%20Image)**
